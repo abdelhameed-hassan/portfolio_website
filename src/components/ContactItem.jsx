@@ -19,9 +19,25 @@ const ContactItemStyled = styled.div`
   background-color: var(--background-dark-grey);
   display: flex;
   align-items: center;
-  @media screen and (max-width: 620px) {
+  @media screen and (max-width: 1000px) {
     padding-right: 0;
   }
+  @media screen and (max-width: 810px) {
+    p {
+      font-size: 0.8rem;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    p {
+      font-size: 0.5rem;
+    }
+  }
+  @media screen and (max-width: 390px) {
+    p {
+      font-size: 0.4rem;
+    }
+  }
+
   :nth-child(1) {
     margin-top: 1.5rem;
   }

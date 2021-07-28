@@ -188,8 +188,10 @@ const GlobalStyle = createGlobalStyle`
       @media screen and (max-width: 600px) {
        .hamburger-menu{
         right:0%;
+
     }
   }
+
 
     //Global Media queries
 `;

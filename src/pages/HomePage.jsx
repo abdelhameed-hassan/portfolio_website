@@ -77,6 +77,14 @@ const HomePageStyled = styled.header`
     transform: translate(-50%, -50%);
     text-align: center;
     width: 80%;
+    @media screen and (max-width: 500px) {
+      h1 {
+        font-size: 3rem;
+        span {
+          font-size: 2.1rem;
+        }
+      }
+    }
 
     .ityped-job {
       font-size: 3rem;
@@ -84,11 +92,17 @@ const HomePageStyled = styled.header`
       @media screen and (max-width: 500px) {
         font-size: 2rem;
       }
+      @media screen and (max-width: 450px) {
+        font-size: 1.5rem;
+      }
       span {
         font-size: 3rem;
         color: crimson;
         @media screen and (max-width: 500px) {
           font-size: 2rem;
+        }
+        @media screen and (max-width: 450px) {
+          font-size: 1.5rem;
         }
       }
     }

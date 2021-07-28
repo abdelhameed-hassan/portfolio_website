@@ -36,7 +36,7 @@ const ImageSection = () => {
           </div>
         </div>
         <a
-          href="https://drive.google.com/file/d/1beUN6_KThYufxItFiIbHU5B19rGOdlIg/view?usp=sharing"
+          href="https://drive.google.com/file/d/1F5Y_931HQdihZLcT6qUr0hk8MfeBI2Uf/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
@@ -79,6 +79,32 @@ const ImageSectionStyled = styled.div`
     .about-info {
       display: flex;
       padding-bottom: 1.4rem;
+      @media screen and (max-width: 500px) {
+        .info-title {
+          padding-right: 0.5rem !important;
+          p {
+            font-size: 0.9rem;
+          }
+        }
+        .info {
+          p {
+            font-size: 0.85rem;
+          }
+        }
+      }
+      @media screen and (max-width: 350px) {
+        .info-title {
+          padding-right: 0.5rem !important;
+          p {
+            font-size: 0.75rem;
+          }
+        }
+        .info {
+          p {
+            font-size: 0.75rem;
+          }
+        }
+      }
       .info-title {
         padding-right: 3rem;
         p {

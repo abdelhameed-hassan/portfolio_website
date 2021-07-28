@@ -4,7 +4,7 @@ const PrimaryButton = ({ title }) => {
   return <PrimaryButtonStyled>{title}</PrimaryButtonStyled>;
 };
 
-const PrimaryButtonStyled = styled.a`
+const PrimaryButtonStyled = styled.div`
   background-color: var(--primary-color);
   padding: 0.8rem 2.5rem;
   color: var(--white-color);

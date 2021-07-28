@@ -98,6 +98,9 @@ const ContactPageStyled = styled.section`
         @media screen and (max-width: 620px) {
           width: 100%;
         }
+        @media screen and (max-width: 510px) {
+          width: 90%;
+        }
         .form-field {
           margin-top: 2rem;
           position: relative;

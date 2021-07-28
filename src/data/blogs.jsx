@@ -10,7 +10,7 @@ const blogs = [
     date: "03",
     month: "April",
     image: blog3,
-    link: "https://www.google.com/",
+    link: "https://developers.google.com/search/docs/beginner/seo-starter-guide",
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const blogs = [
     date: "04",
     month: "April",
     image: blog4,
-    link: "https://www.google.com/",
+    link: "https://levelup.gitconnected.com/20-essential-snippets-to-code-like-a-pro-in-javascript-c7a6ef4dbddc",
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const blogs = [
     date: "01",
     month: "April",
     image: blog1,
-    link: "https://www.google.com/",
+    link: "https://www.pcmag.com/news/get-organized-20-tips-for-working-from-home",
   },
   {
     id: 4,
@@ -34,7 +34,7 @@ const blogs = [
     date: "02",
     month: "April",
     image: blog2,
-    link: "https://www.google.com/",
+    link: "https://qvik.com/news/how-to-choose-a-programming-language-for-project/",
   },
 ];
 

@@ -27,6 +27,26 @@ const ResumeItemStyled = styled.div`
       font-size: 80%;
     }
   }
+
+  @media screen and (max-width: 480px) {
+    h5 {
+      font-size: 150% !important;
+    }
+    p,
+    h6 {
+      font-size: 80% !important;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    h5 {
+      font-size: 120% !important;
+    }
+    p,
+    h6 {
+      font-size: 70% !important;
+    }
+  }
   .left-content {
     width: 50%;
     padding-left: 20px;
