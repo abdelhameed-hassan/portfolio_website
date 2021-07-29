@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 import avatar from "../imgs/avatar.jpg";
 
-const Navigation = () => {
+const Navigation = ({ handleNavClick }) => {
   return (
     <NavigationStyled>
       <div className="avatar">
@@ -10,32 +10,62 @@ const Navigation = () => {
       </div>
       <ul className="nav-items">
         <li className="nav-item">
-          <NavLink to="/" activeClassName="active-class" exact>
+          <NavLink
+            to="/"
+            activeClassName="active-class"
+            exact
+            onClick={handleNavClick}
+          >
             Home
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/about" activeClassName="active-class" exact>
+          <NavLink
+            to="/about"
+            activeClassName="active-class"
+            exact
+            onClick={handleNavClick}
+          >
             About
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/resume" activeClassName="active-class" exact>
+          <NavLink
+            to="/resume"
+            activeClassName="active-class"
+            exact
+            onClick={handleNavClick}
+          >
             Resume
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/portfolio" activeClassName="active-class" exact>
+          <NavLink
+            to="/portfolio"
+            activeClassName="active-class"
+            exact
+            onClick={handleNavClick}
+          >
             Portfolio
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/blog" activeClassName="active-class" exact>
+          <NavLink
+            to="/blog"
+            activeClassName="active-class"
+            exact
+            onClick={handleNavClick}
+          >
             Blogs
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/contact" activeClassName="active-class" exact>
+          <NavLink
+            to="/contact"
+            activeClassName="active-class"
+            exact
+            onClick={handleNavClick}
+          >
             Contact
           </NavLink>
         </li>

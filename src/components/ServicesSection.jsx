@@ -4,7 +4,7 @@ import Title from "../components/Title";
 import ServiceCard from "../components/ServiceCard";
 import design from "../imgs/design.svg";
 import intelligence from "../imgs/intelligence.svg";
-import gamedev from "../imgs/game-dev.svg";
+import gamedev from "../imgs/logo.svg";
 
 const ServicesSection = () => {
   return (
@@ -14,26 +14,27 @@ const ServicesSection = () => {
         <div className="services">
           <ServiceCard
             image={design}
-            title={"Web Design"}
+            title={"Web Development"}
             paragraph={
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, beatae perferendis! Incidunt vitae laboriosam itaque."
+              "Creating responsive websites and stunning visual elements of web applications by translating UI/UX designs high quality code."
             }
           />
           <div className="mid-card">
             <ServiceCard
               image={intelligence}
-              title={"Artificial Intelligence"}
+              title={"Cloud Integration"}
               paragraph={
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, beatae perferendis! Incidunt vitae laboriosam itaque."
+                "Able to integrate work needs with cloud service providers such as AWS and fully use their services to facilitate workflow."
               }
             />
           </div>
 
           <ServiceCard
             image={gamedev}
-            title={"Game Development"}
+            selectWidth="4.2rem"
+            title={"Infrastructure Configuration"}
             paragraph={
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, beatae perferendis! Incidunt vitae laboriosam itaque."
+              "App dockerization knowledge, full infrastructue set-up using terraform and writing pipelines scripts for CI/CD deployments."
             }
           />
         </div>

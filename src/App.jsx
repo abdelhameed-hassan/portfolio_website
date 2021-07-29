@@ -29,9 +29,14 @@ function App() {
     }
   };
 
+  const handleNavClick = () => {
+    setNavToggle(!navToggle);
+    console.log("clicked");
+  };
+
   return (
     <div className="App">
-      <Sidebar navToggle={navToggle} />
+      <Sidebar navToggle={navToggle} handleNavClick={handleNavClick} />
       <div className="light-dark-mode">
         <div className="left-content">
           <Brightness4Icon />

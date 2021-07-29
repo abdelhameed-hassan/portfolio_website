@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import GitHubIcon from "@material-ui/icons/GitHub";
-import PinterestIcon from "@material-ui/icons/Pinterest";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
 const Menu = ({ menuItem }) => {
   return (
@@ -19,7 +19,7 @@ const Menu = ({ menuItem }) => {
                   </li>
                   <li>
                     <a href={item.link2} target="_blank" rel="noreferrer">
-                      <PinterestIcon />
+                      <LinkedInIcon />
                     </a>
                   </li>
                 </ul>

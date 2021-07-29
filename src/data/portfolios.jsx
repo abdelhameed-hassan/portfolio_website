@@ -1,72 +1,48 @@
-import css1 from "../imgs/portImages/cv_css.png";
-import css2 from "../imgs/portImages/ms.png";
+import food from "../imgs/portImages/omniFood.png";
+import admin from "../imgs/portImages/admin-dashborad.jpg";
 import react1 from "../imgs/portImages/react_styled.png";
-import img2 from "../imgs/portImages/maya-4.jpg";
-import img3 from "../imgs/portImages/maya-3.jpg";
+import img2 from "../imgs/portImages/checklist.png";
 
 const portfolios = [
   {
     id: 1,
-    category: "CSS",
-    image: css1,
-    link1: "https://www.google.com",
-    link2: "https://www.google.com",
-    title: "Responsive Resume",
-    text: "Created with only HTML and CSS.",
+    category: "React JS",
+    image: admin,
+    link1: "https://github.com/abdelhameed-hassan/react-admin-dashboard",
+    link2:
+      "https://www.linkedin.com/in/abdelhameed-hassan-84734216a/?locale=en_US",
+    title: "react admin dashboard",
+    text: "Created using React JS",
   },
   {
     id: 2,
-    category: "Python",
-    image: img3,
-    link1: "https://www.google.com",
-    link2: "https://www.google.com",
-    title: "How To Animate In Maya",
-    text: "Number one Animation Application",
+    category: "CSS",
+    image: food,
+    link1: "https://github.com/abdelhameed-hassan/omni-food",
+    link2:
+      "https://www.linkedin.com/in/abdelhameed-hassan-84734216a/?locale=en_US",
+    title: "Omni Food",
+    text: "Created with only HTML and CSS.",
   },
   {
     id: 3,
-    category: "Javascript",
-    image: img3,
-    link1: "https://www.google.com",
-    link2: "https://www.google.com",
-    title: "How To Animate In Maya",
-    text: "Number one Animation Application",
+    category: "Typescript",
+    image: img2,
+    link1: "https://github.com/abdelhameed-hassan/react-task-tracker",
+    link2:
+      "https://www.linkedin.com/in/abdelhameed-hassan-84734216a/?locale=en_US",
+    title: "Task Tracker",
+    text: "Created with React & Typescript",
   },
   {
     id: 4,
-    category: "Animation",
-    image: img2,
-    link1: "https://www.google.com",
-    link2: "https://www.google.com",
-    title: "How To Use Blender",
-    text: "Free Animation Software",
-  },
-  {
-    id: 5,
-    category: "Animation",
-    image: img2,
-    link1: "https://www.google.com",
-    link2: "https://www.google.com",
-    title: "How To Use Blender",
-    text: "Free Animation Software",
-  },
-  {
-    id: 6,
     category: "React JS",
     image: react1,
-    link1: "https://www.google.com",
-    link2: "https://www.google.com",
+    link1: "https://github.com/abdelhameed-hassan/portfolio_website",
+    link2:
+      "https://www.linkedin.com/in/abdelhameed-hassan-84734216a/?locale=en_US",
     title: "Responsive Portfolio Website",
-    text: "Created using different technologies such as Material UI, Styled-Components and more...",
-  },
-  {
-    id: 7,
-    category: "CSS",
-    image: css2,
-    link1: "https://www.google.com",
-    link2: "https://www.google.com",
-    title: "Microsoft Website Clone",
-    text: "Created using HTML and CSS",
+    text: "React & Styled-Components",
   },
 ];
 

@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
-const ServiceCard = ({ image, title, paragraph }) => {
+const ServiceCard = ({ image, title, paragraph, selectWidth }) => {
   return (
     <ServiceCardStyled>
       <div className="container">
-        <img src={image} alt="" />
+        <img src={image} alt="" style={{ width: selectWidth }} />
         <h4>{title}</h4>
         <p>{paragraph}</p>
       </div>
@@ -27,7 +27,7 @@ const ServiceCardStyled = styled.div`
     padding: 1.2rem;
     h4 {
       color: var(--white-color);
-      font-size: 1.6rem;
+      font-size: 1.41rem;
       padding: 1rem 0;
       position: relative;
       &::after {
