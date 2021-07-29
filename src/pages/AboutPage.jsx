@@ -3,7 +3,7 @@ import { MainLayout } from "../styles/Layouts";
 import Title from "../components/Title";
 import ImageSection from "../components/ImageSection";
 import ServicesSection from "../components/ServicesSection";
-import ReviewsSection from "../components/ReviewsSection";
+// import ReviewsSection from "../components/ReviewsSection";
 
 const AboutPage = () => {
   return (
