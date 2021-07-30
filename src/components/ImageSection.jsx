@@ -79,20 +79,33 @@ const ImageSectionStyled = styled.div`
     .about-info {
       display: flex;
       padding-bottom: 1.4rem;
-      @media screen and (max-width: 500px) {
+      @media screen and (max-width: 585px) {
         .info-title {
-          padding-right: 0.5rem !important;
+          padding-right: 0.5rem;
           p {
             font-size: 0.9rem;
           }
         }
         .info {
           p {
-            font-size: 0.85rem;
+            font-size: 0.9rem;
           }
         }
       }
-      @media screen and (max-width: 350px) {
+      @media screen and (max-width: 500px) {
+        .info-title {
+          padding-right: 0.5rem;
+          p {
+            font-size: 0.9rem;
+          }
+        }
+        .info {
+          p {
+            font-size: 0.9rem;
+          }
+        }
+      }
+      @media screen and (max-width: 475px) {
         .info-title {
           padding-right: 0.5rem !important;
           p {
@@ -102,6 +115,19 @@ const ImageSectionStyled = styled.div`
         .info {
           p {
             font-size: 0.75rem;
+          }
+        }
+      }
+      @media screen and (max-width: 360px) {
+        .info-title {
+          padding-right: 0.5rem;
+          p {
+            font-size: 0.65rem;
+          }
+        }
+        .info {
+          p {
+            font-size: 0.65rem;
           }
         }
       }

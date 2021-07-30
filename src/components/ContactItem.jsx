@@ -28,13 +28,16 @@ const ContactItemStyled = styled.div`
     }
   }
   @media screen and (max-width: 450px) {
+    padding: 1.5rem 0.5rem;
     p {
-      font-size: 0.5rem;
+      font-size: 0.68rem;
     }
   }
-  @media screen and (max-width: 390px) {
+  @media screen and (max-width: 350px) {
+    padding: 1.5rem 0.5rem;
+
     p {
-      font-size: 0.4rem;
+      font-size: 0.5rem;
     }
   }
 
